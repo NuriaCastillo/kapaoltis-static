@@ -1,0 +1,7 @@
+Posa aquí les fotos d'aquesta secció.
+
+Formats: .jpg .jpeg .png .webp
+Mida ideal: mínim 1200 px d'ample
+Nom recomanat: 01-nom-curt.jpg, 02-nom-curt.jpg...
+
+Quan les tinguis a la carpeta, digues-m'ho i les enganxo a la galeria de la web.

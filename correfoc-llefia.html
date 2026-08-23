@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Correfoc Llefià - Grup de Diables Kapaoltis</title>
   <meta name="description" content="Recorregut del Correfoc de Llefià i mesures de seguretat per a veïns, espectadors i participants.">
-  <link rel="icon" href="wp-content/uploads/2024/04/cropped-Logo-1-32x32.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="wp-content/uploads/2024/04/cropped-Logo-1-180x180.jpg">
+  <link rel="icon" href="assets/img/cropped-Logo-1-32x32.jpg" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/cropped-Logo-1-180x180.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css?v=13">
+  <link rel="stylesheet" href="assets/css/styles.css?v=36">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Vés al contingut</a>
@@ -18,7 +18,7 @@
   <header class="site-header">
     <div class="site-header__inner">
       <a class="brand" href="index.html" aria-label="Grup de Diables Kapaoltis">
-        <img class="brand__mark" src="wp-content/uploads/2024/04/cropped-Logo-1-180x180.jpg" width="40" height="40" alt="">
+        <img class="brand__mark" src="assets/img/cropped-Logo-1-180x180.jpg" width="40" height="40" alt="">
         <span class="brand__text">
           <span class="brand__name">Grup de Diables Kapaoltis</span>
           <span class="brand__tag">de Llefià · Badalona</span>
@@ -42,35 +42,82 @@
   </header>
 
   <main id="contingut">
-    <header class="page-hero">
+    <header class="page-hero page-hero--video">
       <div class="page-hero__media">
-        <img src="wp-content/uploads/2024/05/correfocLlefia-1.jpeg" alt="Correfoc de Llefià" width="1600" height="900">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="assets/img/correfocLlefia-1.jpg"
+          aria-hidden="true"
+        >
+          <source src="assets/img/videoCorrefoc.mp4" type="video/mp4">
+        </video>
       </div>
       <div class="page-hero__shade" aria-hidden="true"></div>
       <div class="page-hero__content">
-        <h1>Correfoc Llefià</h1>
-        <p>Recorregut de la festa i recomanacions per gaudir-ne amb seguretat.</p>
+        <h1>Correfoc de Llefià</h1>
+        <p>Correfoc de ciutat des de 2015.</p>
       </div>
     </header>
 
     <section class="section">
-      <div class="wrap reveal">
-        <p class="section__eyebrow">Recorregut</p>
-        <h2 class="section__title">Mapes del correfoc</h2>
-        <p class="section__lead">Consulta el cercavila cap a l’inici, el correfoc infantil i el recorregut de la colla gran.</p>
-        <div class="map-stack">
-          <figure class="map-card">
-            <h3>Cercavila infantil</h3>
-            <img src="wp-content/uploads/2024/05/cercavila.jpg" alt="Mapa del cercavila cap a l’inici del correfoc infantil" width="800" height="600" loading="lazy">
-          </figure>
-          <figure class="map-card">
-            <h3>Correfoc infantil</h3>
-            <img src="wp-content/uploads/2024/05/correfocInfanilMaps.jpg" alt="Mapa del correfoc infantil de Llefià" width="800" height="600" loading="lazy">
-          </figure>
-          <figure class="map-card">
-            <h3>Correfoc</h3>
-            <img src="wp-content/uploads/2024/05/correfocMaps.jpg" alt="Mapa del correfoc de Llefià" width="800" height="600" loading="lazy">
-          </figure>
+      <div class="wrap">
+        <div class="reveal">
+          <p class="section__eyebrow">Recorregut</p>
+          <h2 class="section__title">Mapes del correfoc de Llefià</h2>
+        </div>
+
+        <div class="route-list">
+          <article class="route reveal">
+            <div class="route__map">
+              <img src="assets/img/cercavila.jpg?v=1" alt="Mapa del cercavila cap a l’inici del correfoc infantil" width="1200" height="800" loading="lazy">
+            </div>
+            <div class="route__body">
+              <p class="route__eyebrow">01 · Cercavila</p>
+              <h3>Cercavila cap a l’inici del correfoc</h3>
+              <p class="route__note">Des de la plaça Trafalgar fins al punt d’arrencada del correfoc infantil.</p>
+              <ol class="route__streets">
+                <li><span>Pl. Trafalgar, davant de Torre Mena</span> Inici</li>
+                <li><span>Av. Marquès de Sant Mori, cruïlla amb C. Provença</span> Final</li>
+              </ol>
+            </div>
+          </article>
+
+          <article class="route reveal">
+            <div class="route__map">
+              <img src="assets/img/correfocInfanilMaps.jpg?v=1" alt="Mapa del correfoc infantil de Llefià" width="1200" height="800" loading="lazy">
+            </div>
+            <div class="route__body">
+              <p class="route__eyebrow">02 · Infantil</p>
+              <h3>Correfoc infantil</h3>
+              <p class="route__note">Recorregut curt per l’avinguda principal fins a la plaça Trafalgar.</p>
+              <ol class="route__streets">
+                <li><span>Av. Marquès de Sant Mori, cruïlla amb C. Provença</span> Inici</li>
+                <li><span>Pl. Trafalgar, davant de Torre Mena</span> Final</li>
+              </ol>
+            </div>
+          </article>
+
+          <article class="route reveal">
+            <div class="route__map">
+              <img src="assets/img/correfocMaps.jpg?v=1" alt="Mapa del correfoc de Llefià" width="1200" height="1100" loading="lazy">
+            </div>
+            <div class="route__body">
+              <p class="route__eyebrow">03 · Colla Gran</p>
+              <h3>Correfoc</h3>
+              <p class="route__note">Circuit pel barri amb cinc punts de referència.</p>
+              <ol class="route__streets">
+                <li><span>Av. Marquès de Sant Mori, cruïlla amb C. Provença</span> Inici</li>
+                <li><span>C. Pérez Galdós</span> Cap a dalt</li>
+                <li><span>Rda. Sant Antoni de Llefià</span></li>
+                <li><span>C. Ramiro de Maeztu</span> Cap a baix</li>
+                <li><span>Pl. Trafalgar</span> Final</li>
+              </ol>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -79,8 +126,8 @@
       <div class="wrap reveal">
         <p class="section__eyebrow">Seguretat</p>
         <h2 class="section__title">Mesures i recomanacions</h2>
-        <figure style="margin: 1.5rem 0 2.5rem;">
-          <img src="wp-content/uploads/2024/05/mesuresCorrefoc.jpg" alt="Infografia de mesures de seguretat del correfoc" width="1200" height="500" loading="lazy" style="border-radius: var(--radius);">
+        <figure class="safety-figure">
+          <img src="assets/img/mesuresCorrefoc.jpg" alt="Infografia de mesures de seguretat del correfoc" width="1200" height="500" loading="lazy">
         </figure>
 
         <div class="safety">
@@ -109,7 +156,7 @@
           </div>
         </div>
 
-        <p class="prose" style="margin-top: 2rem; color: var(--ink-muted);">
+        <p class="safety-disclaimer">
           L’incompliment d’aquestes mesures és responsabilitat de cada participant. El servei d’ordre es reserva el dret d’expulsar qui no porti roba adequada o no actuï correctament.
         </p>
       </div>
@@ -119,7 +166,7 @@
   <footer class="site-footer">
     <div class="site-footer__inner">
       <div class="site-footer__brand-block">
-        <img class="site-footer__logo" src="wp-content/uploads/2024/04/logoNegre.jpg" width="112" height="112" alt="Grup de Diables Kapaoltis">
+        <img class="site-footer__logo" src="assets/img/logoNegre.jpg" width="112" height="112" alt="Grup de Diables Kapaoltis">
         <div>
           <p class="site-footer__brand">Grup de Diables Kapaoltis</p>
           <p class="site-footer__tagline">Cremant des de 1987</p>
