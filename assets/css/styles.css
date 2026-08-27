@@ -138,7 +138,6 @@ a:hover {
   height: 2.5rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 1px solid var(--line-strong);
   flex-shrink: 0;
 }
 
@@ -425,7 +424,7 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 35%;
+  object-position: center 42%;
   animation: hero-drift 28s var(--ease) infinite alternate;
 }
 
@@ -597,6 +596,10 @@ a:hover {
   margin: 0.85rem 0 0;
   max-width: 36rem;
   color: var(--hero-muted);
+}
+
+.page-hero__lead {
+  font-size: 1.2rem;
 }
 
 /* ——— Feature strips ——— */
@@ -811,6 +814,10 @@ a:hover {
 .story__body > p {
   margin: 0 0 0.9rem;
   color: var(--ink-muted);
+}
+
+.story__body > p.story__eyebrow {
+  color: var(--ember);
 }
 
 .story__tags {
