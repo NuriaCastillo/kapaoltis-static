@@ -330,6 +330,10 @@ a:hover {
   max-width: 42rem;
 }
 
+.prose--wide {
+  max-width: none;
+}
+
 .prose p {
   margin: 0 0 1.15rem;
   color: var(--ink-muted);
