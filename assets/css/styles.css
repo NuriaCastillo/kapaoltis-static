@@ -768,6 +768,18 @@ a:hover {
   .story--flip .story__media {
     order: 2;
   }
+
+  .story--long {
+    align-items: start;
+    grid-template-columns: minmax(18rem, 0.95fr) minmax(0, 1.2fr);
+  }
+
+  .story--long .story__media {
+    position: sticky;
+    top: calc(var(--header-h) + 1.25rem);
+    aspect-ratio: 3 / 4;
+    min-height: 26rem;
+  }
 }
 
 .story__media {
